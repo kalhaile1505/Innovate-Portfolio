@@ -6,7 +6,8 @@
 from flask import Flask, Blueprint, render_template, url_for, redirect
 
 # a 'blueprint' of the website structure.
-views = Blueprint(__name__, "views")
+
+
 
 # the website is defined as a flask app and the url prefix is set to '/'.
 app = Flask(__name__)
