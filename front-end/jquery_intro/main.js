@@ -6,7 +6,7 @@ $(document).ready(function() {
         $("p").toggle();
         });
         $("#activate-dark-mode").click(function(){
-            $("body").toggleClass("dark-mode");
+        $("body").toggleClass("dark-mode");
         });    
 
 });
